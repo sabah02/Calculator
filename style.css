@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    background-color: black;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer {
+    width: 310px;
+    height: 450px;
+    background-color: black;
+    border-radius: 17px;
+    display: block;
+    border-style:groove;
+    border-color: #BFD7EA;
+}
+
+.display {
+    width: 260px;
+    height: 75px;
+    margin-top: 24px;
+    margin-left: 25px;
+    color: #BFD7EA;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.num_op {
+    display: block;
+    width: 260px;
+    height: 320px;
+    margin-top: 16px;
+    margin-left: 25px;
+}
+
+.grp1, .grp2, .grp3, .grp4, .grp5 {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+}
+
+.key {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(178, 190, 181, 0.715);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+#equal {
+    width: 135.5px;
+}
+
+#clear {
+    width: 112px;
+}
+
+#divide, #multiply, #plus, #minus {
+    width: 74px;
+}
+
+.number {
+    background-color: #087E8B ;
+}
+
+#plus, #minus, #divide, #multiply, #mod, #uni {
+    background-color: #FF5A5F;
+    font-size: 20px;
+}
+
+#equal {
+    background-color: #C81D25;
+}
+
+#float, #back, #clear {
+    background-color: #BFD7EA;
+}
